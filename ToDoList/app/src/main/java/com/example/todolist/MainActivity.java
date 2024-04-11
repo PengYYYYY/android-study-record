@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showToast(String message) {
-        Toast toast = Toast.makeText(getApplicationContext(),"Please type something", Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getApplicationContext(),message, Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.TOP | Gravity.CENTER_HORIZONTAL, 0 ,100);
         toast.show();
     }
@@ -104,7 +104,6 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
         editText.setText("");
-        editText.clearFocus();
         Todo todoItem = new Todo(inputText, 1);
         todoList.add(todoItem);
         listView.requestLayout();

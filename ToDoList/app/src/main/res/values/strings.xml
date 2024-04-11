@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="todo_title">PY\'s To-Do List</string>
+    <string name="todo_button_add">Add</string>
+    <string name="todo_button_del">Del</string>
+    <string name="edit_text_hint">Type what you want to do</string>
+    <string name="empty_text">ToDo List is Empty</string>
+</resources>
